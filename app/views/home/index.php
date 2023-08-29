@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Halaman <?= $data['judul']; ?></title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="container">
+	<h1>Selamat Datang di Website saya</h1>
+</div>

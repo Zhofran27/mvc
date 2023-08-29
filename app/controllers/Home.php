@@ -4,8 +4,8 @@ class Home {
     public function index ()
     {
     	$data['judul'] = 'Home';
-        $this->view('templates/header');
-        $this->view('home/index');
+        $this->view('templates/header',$data);
+        $this->view('home/index',$data);
         $this->view('templates/footer');
     }
 }
